@@ -1680,9 +1680,15 @@ bottom:25px;
 
 right:25px;
 
-width:55px;
+width:58px;
 
-height:55px;
+height:58px;
+
+display:none;
+
+align-items:center;
+
+justify-content:center;
 
 border:none;
 
@@ -1692,11 +1698,13 @@ background:#ff4f87;
 
 color:white;
 
-font-size:24px;
+font-size:30px;
+
+font-weight:700;
+
+line-height:1;
 
 cursor:pointer;
-
-display:none;
 
 z-index:999;
 
@@ -1705,12 +1713,11 @@ box-shadow:0 12px 25px rgba(255,79,135,.35);
 transition:.35s;
 
 }
-
 #topBtn:hover{
 
-transform:translateY(-5px);
-
 background:#ff2d6f;
+
+transform:translateY(-5px) scale(1.08);
 
 }
 
